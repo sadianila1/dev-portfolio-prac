@@ -23,6 +23,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -48,4 +49,30 @@ nav a {
     color: #474747;
     font-size: 20px;
     font-weight: 400;
+}
+.header{
+    background: #FFF8F3;
+}
+.banner{
+    padding: 30px 45px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner-greeding{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+}
+.banner-content{
+    font-size: 15px;
+    font-weight: 400;
+    color: #757575;
+}
+.banner-img{
+    width: 500px;
 }
