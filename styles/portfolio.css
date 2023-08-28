@@ -197,7 +197,38 @@ main {
     font-weight: 700;
 
 }
-.resume-btn{
+
+.resume-btn {
     text-align: center;
     margin-top: 50px;
+}
+
+/* footer section style */
+footer {
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 220px;
+    margin-top: 130px;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}
+.social-link{
+    margin-left: 24px;
 }
